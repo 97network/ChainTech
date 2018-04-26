@@ -779,7 +779,7 @@
         "id": 11,
         "nodeType": "ImportDirective",
         "scope": 1164,
-        "sourceUnit": 2685,
+        "sourceUnit": 3694,
         "src": "75:34:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -790,7 +790,7 @@
         "id": 12,
         "nodeType": "ImportDirective",
         "scope": 1164,
-        "sourceUnit": 2677,
+        "sourceUnit": 3686,
         "src": "110:30:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -804,10 +804,10 @@
               "id": 13,
               "name": "Procedure",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2684,
+              "referencedDeclaration": 3693,
               "src": "175:9:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Procedure_$2684",
+                "typeIdentifier": "t_contract$_Procedure_$3693",
                 "typeString": "contract Procedure"
               }
             },
@@ -818,7 +818,7 @@
         ],
         "contractDependencies": [
           8,
-          2684
+          3693
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -826,7 +826,7 @@
         "id": 1163,
         "linearizedBaseContracts": [
           1163,
-          2684,
+          3693,
           8
         ],
         "name": "cooptationProcedure",
@@ -2494,7 +2494,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -2502,10 +2502,10 @@
                         "id": 162,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "4001:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -2542,10 +2542,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "4022:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -2559,7 +2559,7 @@
                     "nodeType": "FunctionCall",
                     "src": "4022:27:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -2592,7 +2592,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 2696,
+                                "referencedDeclaration": 3705,
                                 "src": "4092:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -2630,7 +2630,7 @@
                               "referencedDeclaration": 163,
                               "src": "4072:12:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Organ_$2676",
+                                "typeIdentifier": "t_contract$_Organ_$3685",
                                 "typeString": "contract Organ"
                               }
                             },
@@ -2641,7 +2641,7 @@
                             "lValueRequested": false,
                             "memberName": "isNorm",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 2555,
+                            "referencedDeclaration": 3564,
                             "src": "4072:19:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
@@ -2679,7 +2679,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "4063:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2727,7 +2727,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "4176:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2790,7 +2790,7 @@
                                 "referencedDeclaration": 163,
                                 "src": "4209:12:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Organ_$2676",
+                                  "typeIdentifier": "t_contract$_Organ_$3685",
                                   "typeString": "contract Organ"
                                 }
                               },
@@ -2801,7 +2801,7 @@
                               "lValueRequested": false,
                               "memberName": "getActiveNormNumber",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 2583,
+                              "referencedDeclaration": 3592,
                               "src": "4209:32:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -2846,7 +2846,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "4168:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2983,7 +2983,7 @@
                               "referencedDeclaration": 163,
                               "src": "4435:12:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Organ_$2676",
+                                "typeIdentifier": "t_contract$_Organ_$3685",
                                 "typeString": "contract Organ"
                               }
                             },
@@ -2994,7 +2994,7 @@
                             "lValueRequested": false,
                             "memberName": "getActiveNormNumber",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 2583,
+                            "referencedDeclaration": 3592,
                             "src": "4435:32:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -3239,7 +3239,7 @@
                       "referencedDeclaration": 163,
                       "src": "4623:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       }
                     },
@@ -3299,7 +3299,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2696,
+                        "referencedDeclaration": 3705,
                         "src": "4697:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -3625,7 +3625,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2696,
+                        "referencedDeclaration": 3705,
                         "src": "4936:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -3701,7 +3701,7 @@
                       "name": "now",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2698,
+                      "referencedDeclaration": 3707,
                       "src": "5029:3:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -4557,7 +4557,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "5707:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -4783,7 +4783,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "5932:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -4812,7 +4812,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "5944:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -4937,7 +4937,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "6073:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -5192,7 +5192,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -5200,10 +5200,10 @@
                         "id": 375,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "6268:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -5240,10 +5240,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "6289:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -5257,7 +5257,7 @@
                     "nodeType": "FunctionCall",
                     "src": "6289:27:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -5279,7 +5279,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "6354:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -5317,7 +5317,7 @@
                             "referencedDeclaration": 376,
                             "src": "6334:12:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Organ_$2676",
+                              "typeIdentifier": "t_contract$_Organ_$3685",
                               "typeString": "contract Organ"
                             }
                           },
@@ -5328,7 +5328,7 @@
                           "lValueRequested": false,
                           "memberName": "isNorm",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2555,
+                          "referencedDeclaration": 3564,
                           "src": "6334:19:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
@@ -5361,7 +5361,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "6326:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -5407,7 +5407,7 @@
                       "referencedDeclaration": 376,
                       "src": "6383:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       }
                     },
@@ -5502,7 +5502,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "6509:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -5551,7 +5551,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "6454:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -5664,7 +5664,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "6573:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -5921,7 +5921,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "6834:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -6058,7 +6058,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "6948:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -6258,7 +6258,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "7161:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -6334,7 +6334,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "7255:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -6578,7 +6578,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "7505:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -6627,7 +6627,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "7450:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6667,7 +6667,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -6675,10 +6675,10 @@
                         "id": 483,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "7587:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -6715,10 +6715,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "7616:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -6732,7 +6732,7 @@
                     "nodeType": "FunctionCall",
                     "src": "7616:35:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -6754,7 +6754,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "7697:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -6792,7 +6792,7 @@
                             "referencedDeclaration": 484,
                             "src": "7669:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Organ_$2676",
+                              "typeIdentifier": "t_contract$_Organ_$3685",
                               "typeString": "contract Organ"
                             }
                           },
@@ -6803,7 +6803,7 @@
                           "lValueRequested": false,
                           "memberName": "isNorm",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2555,
+                          "referencedDeclaration": 3564,
                           "src": "7669:27:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
@@ -6836,7 +6836,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "7661:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6882,7 +6882,7 @@
                       "referencedDeclaration": 484,
                       "src": "7726:20:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       }
                     },
@@ -6983,7 +6983,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "7806:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -7303,7 +7303,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "8163:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -7440,7 +7440,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "8277:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -7546,7 +7546,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "8389:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -7622,7 +7622,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "8482:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -7889,7 +7889,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "8839:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -8025,7 +8025,7 @@
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2698,
+                          "referencedDeclaration": 3707,
                           "src": "9027:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -8050,7 +8050,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "8951:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -8239,7 +8239,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "9111:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -8279,7 +8279,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -8287,10 +8287,10 @@
                         "id": 601,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "9305:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -8327,10 +8327,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "9334:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -8344,7 +8344,7 @@
                     "nodeType": "FunctionCall",
                     "src": "9334:35:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -8372,7 +8372,7 @@
                       "referencedDeclaration": 602,
                       "src": "9388:20:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       }
                     },
@@ -8469,7 +8469,7 @@
                           "referencedDeclaration": 602,
                           "src": "9580:20:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Organ_$2676",
+                            "typeIdentifier": "t_contract$_Organ_$3685",
                             "typeString": "contract Organ"
                           }
                         },
@@ -8480,7 +8480,7 @@
                         "lValueRequested": false,
                         "memberName": "getActiveNormNumber",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 2583,
+                        "referencedDeclaration": 3592,
                         "src": "9580:40:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -8605,7 +8605,7 @@
                                   "referencedDeclaration": 602,
                                   "src": "9994:20:1",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_Organ_$2676",
+                                    "typeIdentifier": "t_contract$_Organ_$3685",
                                     "typeString": "contract Organ"
                                   }
                                 },
@@ -8616,7 +8616,7 @@
                                 "lValueRequested": false,
                                 "memberName": "getActiveNormNumber",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 2583,
+                                "referencedDeclaration": 3592,
                                 "src": "9994:40:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -10376,7 +10376,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "11025:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -10646,7 +10646,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "11230:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -10743,7 +10743,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "11338:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -10786,7 +10786,7 @@
                       "name": "now",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2698,
+                      "referencedDeclaration": 3707,
                       "src": "11532:3:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -10945,7 +10945,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Organ_$2676",
+                              "typeIdentifier": "t_contract$_Organ_$3685",
                               "typeString": "contract Organ"
                             },
                             "typeName": {
@@ -10953,10 +10953,10 @@
                               "id": 793,
                               "name": "Organ",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 2676,
+                              "referencedDeclaration": 3685,
                               "src": "11724:5:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Organ_$2676",
+                                "typeIdentifier": "t_contract$_Organ_$3685",
                                 "typeString": "contract Organ"
                               }
                             },
@@ -10993,10 +10993,10 @@
                             "name": "Organ",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2676,
+                            "referencedDeclaration": 3685,
                             "src": "11750:5:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                              "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                               "typeString": "type(contract Organ)"
                             }
                           },
@@ -11010,7 +11010,7 @@
                           "nodeType": "FunctionCall",
                           "src": "11750:37:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Organ_$2676",
+                            "typeIdentifier": "t_contract$_Organ_$3685",
                             "typeString": "contract Organ"
                           }
                         },
@@ -11032,7 +11032,7 @@
                                     "name": "msg",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 2696,
+                                    "referencedDeclaration": 3705,
                                     "src": "11834:3:1",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_magic_message",
@@ -11070,7 +11070,7 @@
                                   "referencedDeclaration": 794,
                                   "src": "11809:17:1",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_Organ_$2676",
+                                    "typeIdentifier": "t_contract$_Organ_$3685",
                                     "typeString": "contract Organ"
                                   }
                                 },
@@ -11081,7 +11081,7 @@
                                 "lValueRequested": false,
                                 "memberName": "isNorm",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 2555,
+                                "referencedDeclaration": 3564,
                                 "src": "11809:24:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
@@ -11114,7 +11114,7 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2699,
+                            "referencedDeclaration": 3708,
                             "src": "11801:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -11160,7 +11160,7 @@
                             "referencedDeclaration": 794,
                             "src": "11867:17:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Organ_$2676",
+                              "typeIdentifier": "t_contract$_Organ_$3685",
                               "typeString": "contract Organ"
                             }
                           },
@@ -11248,7 +11248,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "11953:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -11288,7 +11288,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -11296,10 +11296,10 @@
                         "id": 819,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "12075:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -11336,10 +11336,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "12096:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -11353,7 +11353,7 @@
                     "nodeType": "FunctionCall",
                     "src": "12096:27:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -11677,7 +11677,7 @@
                         "referencedDeclaration": 820,
                         "src": "12163:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -11688,7 +11688,7 @@
                       "lValueRequested": false,
                       "memberName": "addNorm",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2296,
+                      "referencedDeclaration": 3305,
                       "src": "12163:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_string_memory_ptr_$_t_bytes32_$_t_uint8_$_t_uint8_$returns$_t_uint256_$",
@@ -11934,7 +11934,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "12609:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -12010,7 +12010,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "12712:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -12218,7 +12218,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "12875:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -12314,7 +12314,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "13070:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -12358,7 +12358,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "13016:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -12465,7 +12465,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "13205:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -12573,7 +12573,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "13147:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -12673,7 +12673,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "13370:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -12750,7 +12750,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -12758,10 +12758,10 @@
                         "id": 925,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "13424:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -12798,10 +12798,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "13445:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -12815,7 +12815,7 @@
                     "nodeType": "FunctionCall",
                     "src": "13445:27:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -12834,7 +12834,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "13504:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -12932,7 +12932,7 @@
                         "referencedDeclaration": 926,
                         "src": "13482:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -12943,7 +12943,7 @@
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1829,
+                      "referencedDeclaration": 2838,
                       "src": "13482:21:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -12980,7 +12980,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "13606:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -14419,7 +14419,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "15016:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -15665,7 +15665,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2696,
+                        "referencedDeclaration": 3705,
                         "src": "16088:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -15818,7 +15818,7 @@
         "id": 11,
         "nodeType": "ImportDirective",
         "scope": 1164,
-        "sourceUnit": 2685,
+        "sourceUnit": 3694,
         "src": "75:34:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -15829,7 +15829,7 @@
         "id": 12,
         "nodeType": "ImportDirective",
         "scope": 1164,
-        "sourceUnit": 2677,
+        "sourceUnit": 3686,
         "src": "110:30:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -15843,10 +15843,10 @@
               "id": 13,
               "name": "Procedure",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2684,
+              "referencedDeclaration": 3693,
               "src": "175:9:1",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Procedure_$2684",
+                "typeIdentifier": "t_contract$_Procedure_$3693",
                 "typeString": "contract Procedure"
               }
             },
@@ -15857,7 +15857,7 @@
         ],
         "contractDependencies": [
           8,
-          2684
+          3693
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -15865,7 +15865,7 @@
         "id": 1163,
         "linearizedBaseContracts": [
           1163,
-          2684,
+          3693,
           8
         ],
         "name": "cooptationProcedure",
@@ -17533,7 +17533,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -17541,10 +17541,10 @@
                         "id": 162,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "4001:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -17581,10 +17581,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "4022:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -17598,7 +17598,7 @@
                     "nodeType": "FunctionCall",
                     "src": "4022:27:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -17631,7 +17631,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 2696,
+                                "referencedDeclaration": 3705,
                                 "src": "4092:3:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -17669,7 +17669,7 @@
                               "referencedDeclaration": 163,
                               "src": "4072:12:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Organ_$2676",
+                                "typeIdentifier": "t_contract$_Organ_$3685",
                                 "typeString": "contract Organ"
                               }
                             },
@@ -17680,7 +17680,7 @@
                             "lValueRequested": false,
                             "memberName": "isNorm",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 2555,
+                            "referencedDeclaration": 3564,
                             "src": "4072:19:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
@@ -17718,7 +17718,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "4063:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -17766,7 +17766,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "4176:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -17829,7 +17829,7 @@
                                 "referencedDeclaration": 163,
                                 "src": "4209:12:1",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Organ_$2676",
+                                  "typeIdentifier": "t_contract$_Organ_$3685",
                                   "typeString": "contract Organ"
                                 }
                               },
@@ -17840,7 +17840,7 @@
                               "lValueRequested": false,
                               "memberName": "getActiveNormNumber",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 2583,
+                              "referencedDeclaration": 3592,
                               "src": "4209:32:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -17885,7 +17885,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "4168:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -18022,7 +18022,7 @@
                               "referencedDeclaration": 163,
                               "src": "4435:12:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Organ_$2676",
+                                "typeIdentifier": "t_contract$_Organ_$3685",
                                 "typeString": "contract Organ"
                               }
                             },
@@ -18033,7 +18033,7 @@
                             "lValueRequested": false,
                             "memberName": "getActiveNormNumber",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 2583,
+                            "referencedDeclaration": 3592,
                             "src": "4435:32:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -18278,7 +18278,7 @@
                       "referencedDeclaration": 163,
                       "src": "4623:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       }
                     },
@@ -18338,7 +18338,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2696,
+                        "referencedDeclaration": 3705,
                         "src": "4697:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -18664,7 +18664,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2696,
+                        "referencedDeclaration": 3705,
                         "src": "4936:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -18740,7 +18740,7 @@
                       "name": "now",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2698,
+                      "referencedDeclaration": 3707,
                       "src": "5029:3:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -19596,7 +19596,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "5707:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -19822,7 +19822,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "5932:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -19851,7 +19851,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "5944:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -19976,7 +19976,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "6073:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -20231,7 +20231,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -20239,10 +20239,10 @@
                         "id": 375,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "6268:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -20279,10 +20279,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "6289:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -20296,7 +20296,7 @@
                     "nodeType": "FunctionCall",
                     "src": "6289:27:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -20318,7 +20318,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "6354:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -20356,7 +20356,7 @@
                             "referencedDeclaration": 376,
                             "src": "6334:12:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Organ_$2676",
+                              "typeIdentifier": "t_contract$_Organ_$3685",
                               "typeString": "contract Organ"
                             }
                           },
@@ -20367,7 +20367,7 @@
                           "lValueRequested": false,
                           "memberName": "isNorm",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2555,
+                          "referencedDeclaration": 3564,
                           "src": "6334:19:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
@@ -20400,7 +20400,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "6326:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -20446,7 +20446,7 @@
                       "referencedDeclaration": 376,
                       "src": "6383:12:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       }
                     },
@@ -20541,7 +20541,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "6509:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -20590,7 +20590,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "6454:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -20703,7 +20703,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "6573:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -20960,7 +20960,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "6834:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -21097,7 +21097,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "6948:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -21297,7 +21297,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "7161:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -21373,7 +21373,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "7255:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -21617,7 +21617,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "7505:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -21666,7 +21666,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "7450:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -21706,7 +21706,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -21714,10 +21714,10 @@
                         "id": 483,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "7587:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -21754,10 +21754,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "7616:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -21771,7 +21771,7 @@
                     "nodeType": "FunctionCall",
                     "src": "7616:35:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -21793,7 +21793,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "7697:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -21831,7 +21831,7 @@
                             "referencedDeclaration": 484,
                             "src": "7669:20:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Organ_$2676",
+                              "typeIdentifier": "t_contract$_Organ_$3685",
                               "typeString": "contract Organ"
                             }
                           },
@@ -21842,7 +21842,7 @@
                           "lValueRequested": false,
                           "memberName": "isNorm",
                           "nodeType": "MemberAccess",
-                          "referencedDeclaration": 2555,
+                          "referencedDeclaration": 3564,
                           "src": "7669:27:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
@@ -21875,7 +21875,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "7661:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -21921,7 +21921,7 @@
                       "referencedDeclaration": 484,
                       "src": "7726:20:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       }
                     },
@@ -22022,7 +22022,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "7806:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -22342,7 +22342,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "8163:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -22479,7 +22479,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "8277:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -22585,7 +22585,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "8389:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -22661,7 +22661,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "8482:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -22928,7 +22928,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "8839:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -23064,7 +23064,7 @@
                           "name": "now",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2698,
+                          "referencedDeclaration": 3707,
                           "src": "9027:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
@@ -23089,7 +23089,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "8951:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -23278,7 +23278,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "9111:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -23318,7 +23318,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -23326,10 +23326,10 @@
                         "id": 601,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "9305:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -23366,10 +23366,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "9334:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -23383,7 +23383,7 @@
                     "nodeType": "FunctionCall",
                     "src": "9334:35:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -23411,7 +23411,7 @@
                       "referencedDeclaration": 602,
                       "src": "9388:20:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       }
                     },
@@ -23508,7 +23508,7 @@
                           "referencedDeclaration": 602,
                           "src": "9580:20:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Organ_$2676",
+                            "typeIdentifier": "t_contract$_Organ_$3685",
                             "typeString": "contract Organ"
                           }
                         },
@@ -23519,7 +23519,7 @@
                         "lValueRequested": false,
                         "memberName": "getActiveNormNumber",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 2583,
+                        "referencedDeclaration": 3592,
                         "src": "9580:40:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -23644,7 +23644,7 @@
                                   "referencedDeclaration": 602,
                                   "src": "9994:20:1",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_Organ_$2676",
+                                    "typeIdentifier": "t_contract$_Organ_$3685",
                                     "typeString": "contract Organ"
                                   }
                                 },
@@ -23655,7 +23655,7 @@
                                 "lValueRequested": false,
                                 "memberName": "getActiveNormNumber",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 2583,
+                                "referencedDeclaration": 3592,
                                 "src": "9994:40:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -25415,7 +25415,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "11025:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -25685,7 +25685,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "11230:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -25782,7 +25782,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "11338:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -25825,7 +25825,7 @@
                       "name": "now",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2698,
+                      "referencedDeclaration": 3707,
                       "src": "11532:3:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -25984,7 +25984,7 @@
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Organ_$2676",
+                              "typeIdentifier": "t_contract$_Organ_$3685",
                               "typeString": "contract Organ"
                             },
                             "typeName": {
@@ -25992,10 +25992,10 @@
                               "id": 793,
                               "name": "Organ",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 2676,
+                              "referencedDeclaration": 3685,
                               "src": "11724:5:1",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Organ_$2676",
+                                "typeIdentifier": "t_contract$_Organ_$3685",
                                 "typeString": "contract Organ"
                               }
                             },
@@ -26032,10 +26032,10 @@
                             "name": "Organ",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2676,
+                            "referencedDeclaration": 3685,
                             "src": "11750:5:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                              "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                               "typeString": "type(contract Organ)"
                             }
                           },
@@ -26049,7 +26049,7 @@
                           "nodeType": "FunctionCall",
                           "src": "11750:37:1",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Organ_$2676",
+                            "typeIdentifier": "t_contract$_Organ_$3685",
                             "typeString": "contract Organ"
                           }
                         },
@@ -26071,7 +26071,7 @@
                                     "name": "msg",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 2696,
+                                    "referencedDeclaration": 3705,
                                     "src": "11834:3:1",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_magic_message",
@@ -26109,7 +26109,7 @@
                                   "referencedDeclaration": 794,
                                   "src": "11809:17:1",
                                   "typeDescriptions": {
-                                    "typeIdentifier": "t_contract$_Organ_$2676",
+                                    "typeIdentifier": "t_contract$_Organ_$3685",
                                     "typeString": "contract Organ"
                                   }
                                 },
@@ -26120,7 +26120,7 @@
                                 "lValueRequested": false,
                                 "memberName": "isNorm",
                                 "nodeType": "MemberAccess",
-                                "referencedDeclaration": 2555,
+                                "referencedDeclaration": 3564,
                                 "src": "11809:24:1",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_bool_$",
@@ -26153,7 +26153,7 @@
                             "name": "require",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2699,
+                            "referencedDeclaration": 3708,
                             "src": "11801:7:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -26199,7 +26199,7 @@
                             "referencedDeclaration": 794,
                             "src": "11867:17:1",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_contract$_Organ_$2676",
+                              "typeIdentifier": "t_contract$_Organ_$3685",
                               "typeString": "contract Organ"
                             }
                           },
@@ -26287,7 +26287,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "11953:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -26327,7 +26327,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -26335,10 +26335,10 @@
                         "id": 819,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "12075:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -26375,10 +26375,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "12096:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -26392,7 +26392,7 @@
                     "nodeType": "FunctionCall",
                     "src": "12096:27:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -26716,7 +26716,7 @@
                         "referencedDeclaration": 820,
                         "src": "12163:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -26727,7 +26727,7 @@
                       "lValueRequested": false,
                       "memberName": "addNorm",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2296,
+                      "referencedDeclaration": 3305,
                       "src": "12163:20:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_string_memory_ptr_$_t_bytes32_$_t_uint8_$_t_uint8_$returns$_t_uint256_$",
@@ -26973,7 +26973,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "12609:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -27049,7 +27049,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "12712:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -27257,7 +27257,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "12875:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -27353,7 +27353,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 2696,
+                            "referencedDeclaration": 3705,
                             "src": "13070:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -27397,7 +27397,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "13016:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -27504,7 +27504,7 @@
                               "name": "msg",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 2696,
+                              "referencedDeclaration": 3705,
                               "src": "13205:3:1",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_message",
@@ -27612,7 +27612,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "13147:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -27712,7 +27712,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "13370:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -27789,7 +27789,7 @@
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Organ_$2676",
+                        "typeIdentifier": "t_contract$_Organ_$3685",
                         "typeString": "contract Organ"
                       },
                       "typeName": {
@@ -27797,10 +27797,10 @@
                         "id": 925,
                         "name": "Organ",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 2676,
+                        "referencedDeclaration": 3685,
                         "src": "13424:5:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -27837,10 +27837,10 @@
                       "name": "Organ",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2676,
+                      "referencedDeclaration": 3685,
                       "src": "13445:5:1",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_type$_t_contract$_Organ_$2676_$",
+                        "typeIdentifier": "t_type$_t_contract$_Organ_$3685_$",
                         "typeString": "type(contract Organ)"
                       }
                     },
@@ -27854,7 +27854,7 @@
                     "nodeType": "FunctionCall",
                     "src": "13445:27:1",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Organ_$2676",
+                      "typeIdentifier": "t_contract$_Organ_$3685",
                       "typeString": "contract Organ"
                     }
                   },
@@ -27873,7 +27873,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "13504:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -27971,7 +27971,7 @@
                         "referencedDeclaration": 926,
                         "src": "13482:12:1",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Organ_$2676",
+                          "typeIdentifier": "t_contract$_Organ_$3685",
                           "typeString": "contract Organ"
                         }
                       },
@@ -27982,7 +27982,7 @@
                       "lValueRequested": false,
                       "memberName": "transfer",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 1829,
+                      "referencedDeclaration": 2838,
                       "src": "13482:21:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$__$",
@@ -28019,7 +28019,7 @@
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 2696,
+                          "referencedDeclaration": 3705,
                           "src": "13606:3:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
@@ -29458,7 +29458,7 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 2699,
+                      "referencedDeclaration": 3708,
                       "src": "15016:7:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -30704,7 +30704,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2696,
+                        "referencedDeclaration": 3705,
                         "src": "16088:3:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -30836,5 +30836,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-03-23T18:02:14.919Z"
+  "updatedAt": "2018-04-01T00:08:29.054Z"
 }
