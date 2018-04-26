@@ -1,0 +1,15 @@
+.final.container {
+  display: flex;
+  flex-direction: column;
+  margin: 4em auto;
+  width: 80%;
+}
+
+.final .container {
+  margin: 3em auto;
+  width: 60%;
+}
+
+.final .container div {
+  margin: 2em auto;
+}

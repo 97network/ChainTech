@@ -1,0 +1,23 @@
+.formulary.container {
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  width: 80%;
+}
+
+.formulary .container {
+  margin: 2em auto;
+  width: 60%;
+}
+
+.formulary input {
+  margin: 0 1em;
+}
+
+.formulary .input-group {
+  margin: 1em auto;
+}
+
+.formulary .btn.btn-primary {
+  width: 30%;
+}

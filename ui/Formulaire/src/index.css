@@ -1,9 +1,10 @@
-body {
+html,body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font-family: sans-serif;
 }
-
+/*
 div {
   margin: 20px auto;
 }
@@ -34,4 +35,4 @@ div {
   max-height: 100px;
   width: 40%;
   margin: 0 auto;
-}
+} */

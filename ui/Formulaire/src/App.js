@@ -2,16 +2,18 @@ import React, { Component } from 'react';
 import IPFS from 'ipfs';
 import jsPDF from 'jspdf';
 import "./lib/bootstrap.min.css";
+import Formulary from './Formulary';
+import Summary from './Summary';
+import Final from './Final';
 
 class App extends Component {
   constructor(props) {
     super(props);
-    this.node = new IPFS();
     this.state = {
-      addedFileHash: null,
-      finalHash: null,
-      info1: null,
-      info2: null,
+      addedFileHash: '',
+      finalHash: '',
+      info1: '',
+      info2: 0,
       phase: 'formulary'
     }
     this.node = new IPFS();
@@ -21,47 +23,38 @@ class App extends Component {
         err ? console.error(err) : console.log('Version: ' + version.version);
       });
     });
-
-    // bindings are necessary in order to get the proper this in the handle fct
-    this.handleSubmit   = this.handleSubmit.bind(this);
-    this.handleChange   = this.handleChange.bind(this);
-    this.saveToIpfs     = this.saveToIpfs.bind(this);
-    this.handlePublish  = this.handlePublish.bind(this);
-    this.handleGoBack   = this.handleGoBack.bind(this);
   }
 
-  handleSubmit(event) {
-    event.preventDefault();
-    let info1 = document.getElementById('info1').value;
-    let info2 = document.getElementById('info2').value;
+  handleChange = e => {
     this.setState({
-      info1: info1,
-      info2: info2,
-      phase: 'results'
+      [e.target.name]: e.target.value
     });
   }
 
-  handleChange(event) {
-    event.stopPropagation();
-    event.preventDefault();
-    const file = event.target.files[0];
-    let reader = new window.FileReader();
+  handleFileChange = e => {
+    const file = e.target.files[0];
+    const reader = new window.FileReader();
     reader.onloadend = () => this.saveToIpfs(reader);
     reader.readAsArrayBuffer(file);
   }
 
-  handleGoBack(event) {
-    event.stopPropagation();
-    event.preventDefault();
+  handleSubmit = e => {
+    e.preventDefault();
+    this.setState({
+      phase: 'summary'
+    });
+  }
+
+  handleGoBack = e => {
     this.setState({
       phase: 'formulary'
     });
   }
 
-  handlePublish(event) {
-    event.stopPropagation();
-    event.preventDefault();
+  handlePublish = e => {
     const doc = new jsPDF();
+    const source = document.getElementsByTagName('body')[0];
+    const reader = new window.FileReader();
     const specialElementHandlers = {
     	'#editor': function(element, renderer){
     		return true;
@@ -70,15 +63,11 @@ class App extends Component {
     		return true;
     	}
     };
-    const source = document.getElementsByTagName('body')[0];
-    // All units are in the set measurement for the document
-    // This can be changed to "pt" (points), "mm" (Default), "cm", "in"
     doc.fromHTML(source, 15, 15, {
     	'width': 170,
     	'elementHandlers': specialElementHandlers
     });
     const file = doc.output('blob');
-    let reader = new window.FileReader();
     reader.onloadend = () => this.saveToIpfs(reader);
     reader.readAsArrayBuffer(file);
   }
@@ -93,7 +82,7 @@ class App extends Component {
           this.setState({
             addedFileHash: ipfsId
           });
-        } else if (this.state.phase === 'results') {
+        } else if (this.state.phase === 'summary') {
           this.setState({
             finalHash: ipfsId,
             phase: 'final'
@@ -104,92 +93,19 @@ class App extends Component {
       });
   }
 
-  displayFormulary() {
-    return (
-      <div className="container">
-        <h1>Formulary</h1>
-        <div className="container" id="formulary">
-          <form className="" id="captureMedia" onSubmit={this.handleSubmit}>
-            <div className="input-group">
-              <label><strong>Info1</strong></label>
-              <input className="form-control float-right" type="text" id="info1"/>
-            </div>
-            <div className="input-group">
-              <label><strong>Info2</strong></label>
-              <input className="form-control float-right" type="number" id="info2"/>
-            </div>
-            <div className="input-group">
-              <label><strong>File</strong></label>
-              <input className="float-right" type="file" onChange={this.handleChange} />
-            </div>
-            <div>
-              <button id="formularySubmit" className="btn btn-primary" type="submit">Submit</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    );
-  }
-
-  displayResults() {
-    const displayInfo1 = this.state.info1 ? <li><strong>Info1:</strong> {this.state.info1}</li> : "";
-    const displayInfo2 = this.state.info2 ? <li><strong>Info2:</strong> {this.state.info2}</li> : "";
-    const displayInfoFile = this.state.addedFileHash ? (
-      <div>
-        <strong>Uploaded file: </strong>
-        <a href={'https://ipfs.io/ipfs/' + this.state.addedFileHash}>
-          {'https://ipfs.io/ipfs/' + this.state.addedFileHash}
-        </a>
-      </div>
-    ) : "";
-    return (
-      <div className="container">
-        <h1>Results</h1>
-        <div className="container">
-          <ul>
-            {displayInfo1}
-            {displayInfo2}
-          </ul>
-          <div>
-            {displayInfoFile}
-          </div>
-          <div id="editor">
-            <button className="btn btn-primary" onClick={this.handlePublish}>Publish to IPFS</button>
-            <button className="btn btn-info" onClick={this.handleGoBack}>Change the informations</button>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  displayFinal() {
-    return (
-      <div>
-        <div className="container">
-          <h1>Thank you for completing the formulary!</h1>
-          <div className="container">
-            Here is the hash of your formulary that you need to present in order
-            to finish your postulation:
-            <div className="text-center">
-              {this.state.finalHash}
-            </div>
-            <div>
-              Link to your postulation recap on ipfs:
-              <a href={'https://ipfs.io/ipfs/' + this.state.finalHash}>
-                {'https://ipfs.io/ipfs/' + this.state.finalHash}
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-
   render() {
     const displayElement = this.state.phase === 'formulary' ?
-      this.displayFormulary() : this.state.phase === 'results' ?
-        this.displayResults() : this.displayFinal();
+      <Formulary
+        {...this.state}
+        handleSubmit={this.handleSubmit}
+        handleChange={this.handleChange}
+        handleFileChange={this.handleFileChange}
+      /> : this.state.phase === 'summary' ?
+        <Summary
+          {...this.state}
+          handleGoBack={this.handleGoBack}
+          handlePublish={this.handlePublish}
+        /> : <Final finalHash={this.state.finalHash} /> ;
     return (
       <div className="App">
         {displayElement}

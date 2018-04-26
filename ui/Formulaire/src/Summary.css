@@ -1,0 +1,17 @@
+.summary.container {
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  width: 80%;
+}
+
+.summary .container {
+  margin: 2em auto;
+  width: 60%;
+}
+
+
+.summary button.btn {
+  width: 40%;
+  margin: 2em 1em;
+}
